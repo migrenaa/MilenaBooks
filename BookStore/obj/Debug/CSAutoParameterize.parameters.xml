@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="bookStoreEntities-Web.config Connection String" description="bookStoreEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/ADO.NET.BookStoreModel.csdl|res://*/ADO.NET.BookStoreModel.ssdl|res://*/ADO.NET.BookStoreModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=milenaserver.database.windows.net;initial catalog=bookStore;user id=milena;password=c41c9deD;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\centroida\\ASP\.NET\\BookStoreApp\\Bookstore\\BookStore\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='bookStoreEntities']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="DefaultConnection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\centroida\\ASP\.NET\\BookStoreApp\\Bookstore\\BookStore\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
